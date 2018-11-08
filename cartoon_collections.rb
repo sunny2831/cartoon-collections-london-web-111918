@@ -1,6 +1,7 @@
 def roll_call_dwarves(dwarves)
-  dwarves.each.with_index(1) do |name, index|
-      line_array.push("#{index}. #{name}")
+  dwarf_array = []
+    dwarves.each.with_index(1) do |name, index|
+      dwarf_array.push("#{index}. #{name}")
     end
 end
 
